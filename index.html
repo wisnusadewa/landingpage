@@ -18,46 +18,76 @@
 </head>
 
 <body>
-    <section class="min-h-screen">
-        <div class="flex justify-center text-center p-2">
-            <h1 class="text-3xl p-1 font-bold w-30 rounded-2xl">FreakCodes</h1>
-        </div>
+    <section class="min-h-screen bg-fixed" style="background-image: url('src/assets/bg2.jpeg')">
 
-        <div class="flex justify-center">
-            <div class=" p-10 flex justify-center text-center bg-blue-500 w-9/12 rounded-xl">
-                <div class="bg-blue-200 w-1/4 h-52 mx-7 rounded-3xl">
-                    <div class="font-bold text-3xl pb-4 pt-2 text-cyan-900">Instagram</div>
-                    <i class="fa-brands fa-instagram text-3xl bg-pink-600 text-white px-3 p-1 rounded-xl"></i>
-                    <div class="pt-3 pb-3">My Instagram Account</div>
-                    <button
-                        class="hover:bg-cyan-800 p-2 m-2 hover:scale-125 transition duration-300 ease-in-out rounded-lg hover:text-white text-sm font-bold hover:bg-blue-500"><a
-                            href="">FOLLOW</a></button>
+        <!-- <div class="flex justify-center text-center pt-8 mb-8  font-mono">
+            <h1 class="text-3xl p-1 w-30 text-orange-400">FreakCodes</h1>
+        </div> -->
+
+        <div class="flex justify-center pt-28">
+            <div>
+                <span
+                    class="absolute left-3 top-24 text-pink-400 text-4xl font-semibold md:text-5xl md:top-20 lg:text-6xl lg:top-20 shadow-2xl font-mono">FreakCodes</span>
+            </div>
+
+            <div class="bg-cover bg-center flex flex-wrap text-center justify-center w-10/12 grid grid-cols-2"
+                style="background-image: url('src/assets/bgcards.jpeg');">
+
+                <div class="row-span-3">
+
                 </div>
-                <div class="bg-blue-100 w-1/4 h-52 mx-7 rounded-3xl">
-                    <div class="font-bold text-3xl pb-4 pt-2 text-cyan-900">Tiktok</div>
-                    <i class="fa-brands fa-tiktok text-3xl bg-black text-white px-3 p-1 rounded-xl"></i>
-                    <div class="pt-3 pb-3">My Tiktok Account</div>
-                    <button
-                        class="hover:bg-cyan-800 p-2 m-2 hover:scale-125 transition duration-300 ease-in-out rounded-lg hover:text-white text-sm font-bold hover:bg-blue-500"><a
-                            href="">FOLLOW</a></button>
+
+
+
+                <div class="bg-cover bg-right w-11/12 h-48 rounded-sm text-center sm:w-11/12 mb-3 mt-3 lg:w-11/12 text-white font-mono"
+                    style="background-image: url('src/assets/ig1.jpeg');">
+                    <!-- <div class="font-bold text-2xl pb-4 pt-2 ">Instagram</div>
+                    <i class="fa-brands fa-instagram text-3xl bg-pink-600 text-white px-3 p-1 rounded-xl"></i> -->
+                    <div class="pt-3 pb-3 text-xl">My Instagram Account</div>
+                    <div>
+                        <button
+                            class="animate-bounce hover:bg-black p-1 px-2 mt-20 hover:scale-125 transition duration-300 ease-in-out rounded-sm hover:text-yellow-300 text-lg font-bold"><a
+                                href="https://www.instagram.com/wisnusadew/">FOLLOW</a></button>
+                    </div>
                 </div>
-                <div class="bg-blue-100 w-1/4 h-52 mx-7 rounded-3xl">
-                    <div class="font-bold text-3xl pb-4 pt-2 text-cyan-900">Youtube</div>
-                    <i class="fa-brands fa-youtube text-4xl text-red-600  bg-white px-2 p-1 rounded-lg"></i>
-                    <div class="pt-3 pb-3">My Youtube Account</div>
+                <div class="bg-cover bg-center w-11/12 h-48 rounded-sm text-center sm:w-11/12 mb-3 mt-3 lg:w-11/12 text-white  font-mono"
+                    style="background-image: url('src/assets/tktk1.jpeg');">
+                    <!-- <div class="font-bold text-2xl pb-4 pt-2 ">Tiktok</div>
+                    <i class="fa-brands fa-tiktok text-3xl bg-black text-white px-3 p-1 rounded-xl"></i> -->
+                    <div class="pt-3 pb-3 text-xl">My Tiktok Account</div>
                     <button
-                        class="hover:bg-cyan-800 p-2 m-2 hover:scale-125 transition duration-300 ease-in-out rounded-xl hover:text-white text-sm font-bold hover:bg-blue-500"><a
-                            href="">FOLLOW</a></button>
+                        class="animate-bounce p-1 px-2 mt-20 hover:scale-125 transition duration-300 ease-in-out rounded-sm hover:text-yellow-300 text-lg font-bold hover:bg-black"><a
+                            href="https://www.tiktok.com/@moodmakesmoney">FOLLOW</a></button>
+                </div>
+                <div class="bg-cover bg-center w-11/12 h-48 rounded-sm text-center  sm:w-11/12 mb-3 mt-3 lg:w-11/12 text-white  font-mono"
+                    style="background-image: url('src/assets/yt1.jpg');">
+                    <!-- <div class="font-bold text-2xl pb-4 pt-2">Youtube</div>
+                    <i class="fa-brands fa-youtube text-4xl text-red-600  bg-white px-2 p-1 rounded-lg"></i> -->
+                    <div class="pt-3 pb-3 text-xl">My Youtube Account</div>
+                    <button
+                        class="animate-bounce p-1 px-2 mt-20 hover:scale-125 transition duration-300 ease-in-out rounded-sm hover:text-yellow-300 text-lg font-bold hover:bg-black"><a
+                            href="https://www.youtube.com/channel/UC3tQvHhx1rUjWfZB2AwTPsQ">FOLLOW</a></button>
                 </div>
             </div>
+
         </div>
-        <br>
-        <div class="flex justify-center">
-            <marquee class="w-1/4" behavior="" direction="">Thank you for visiting, dont forget to follow
+
+        <!-- <div class="flex justify-center  font-mono">
+            <marquee class="w-full md:w-1/2 lg:w-1/4 text-orange-400" behavior="" direction="">Thank you for
+                visiting, dont
+                forget to
+                follow
                 me...
             </marquee>
-        </div>
+        </div> -->
     </section>
+
+    <section>
+
+    </section>
+
+
+
 </body>
 
 </html>
